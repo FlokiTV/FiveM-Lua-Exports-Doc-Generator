@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 // Folder to search for .lua files
-const dir = `D:/fivem/resources`;
+const dir = `D:/DEV/fivem/txData/ox_core_42B9E5.base/resources`;
 
 function getAllLuaFiles(dirPath: string, arrayOfFiles: string[] = []) {
   if (!fs.existsSync(dirPath)) {
